@@ -1,0 +1,330 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* Nav-Bar */
+
+.nav-bar {
+  background-color: #7952B3;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  height: 10vh;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+}
+
+.nav-links {
+  flex-grow: 1;
+  text-align: center;
+  color: #F4F1F9;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+
+.nav-links:hover {
+  text-decoration: none;
+  color: #F4F1F9;
+}
+
+.nav-links:active {
+  color: #F4F1F9;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+/* Home Page */
+
+#home {
+  border: 5px double darkblue;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-header {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: darkblue;
+  text-shadow: 0px 5px 5px blue;
+  text-align: center;
+}
+
+/* Image Slider Page */
+
+#image-slider-container {
+  border: 5px double darkblue;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider-head , .story-slider-head {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: darkblue;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.story-slider-head {
+  margin-top: 20px;
+}
+
+.slide-show-image {
+  height: 60vh;
+  width: 100%;
+  border: 5px double blue;
+}
+
+/* Story Slider Page */
+
+#functional-slider-container {
+  /* border: 5px double darkblue; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#story-head {
+  color: darkblue;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.story {
+  font-size: 25px;
+  font-family: 'Times New Roman', Times, serif;
+  color: darkblue;
+  text-align: center;
+}
+
+.img-container {
+  border: 3px double blue;
+}
+
+.image-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+#story-images {
+  border: 5px double blue;
+  height: 50vh;
+  width: 1000px;
+}
+
+.arrow-btns {
+  background-color: white;
+  border: 1px solid darkblue;
+  border-radius: 10px;
+  color: darkblue;
+}
+
+.arrow-btns:hover {
+  color: white;
+  background-color: blue;
+}
+
+/* Create Marksheet Page */
+
+#create-marksheet-container {
+  border: 5px double darkblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cm-head {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-decoration: underline;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.input-group-text {
+  width: 180px;
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+
+.form-control {
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+
+.input-group {
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+#submit-data-btn {
+  width: 100px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  border: 2px solid darkblue;
+  outline: none;
+}
+
+#submit-data-btn:hover {
+  color: darkblue;
+  background-color: white;
+}
+
+/* View Marksheet Page */
+
+#view-marksheet-container {
+  border: 2px double darkblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.view-marksheet-head {
+  color: blue;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-decoration: underline; 
+  text-align: center;
+}
+
+#view-marksheet-btn {
+  width: 150px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  border: 2px solid darkblue;
+  outline: none;
+}
+
+#view-marksheet-btn:hover {
+  color: darkblue;
+  background-color: white;
+}
+
+/* Marksheet Page */
+
+#marksheet-container {
+  border: 5px double darkblue;
+}
+
+.marksheet-header {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: underline;
+  text-align: center;
+  margin-top: 20px;
+  color: darkblue;
+}
+
+.div-1 {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  color: darkblue;
+}
+
+.row-1 {
+  flex-grow: 1;
+  border: 1px solid blue;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.marksheet-table {
+  border: 3px double blue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  height: 300px;
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+  color: darkblue;
+}
+
+.marksheet-table th {
+  width: 33%;
+}
+
+.result-table {
+  color: darkblue;
+  border: 3px double blue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.result-table th {
+  width: 20%;
+}
+
+/* Bulb and Multiple Bulbs Page */
+
+#bulb-container {
+  border: 5px double darkblue;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bulb-header {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: darkblue;
+  text-shadow: 0px 5px 5px blue;
+  text-align: center;
+}
+
+.light-header {
+  font-family:  Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  text-decoration: underline;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.bulb {
+  height: 250px;
+  width: 250px;
+}
+
+#light-btn {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  background-color: yellow;
+  border: 2px solid gold;
+  outline: none;
+  color: black;
+}
+
+#light-btn:hover {
+  color: yellow;
+  border: 2px solid gold;
+  background-color: black;
+}
+
+.bulbs {
+  height: 150px;
+  width: 150px;
+  margin: 10px;
+}
+
+/* App Styling Completed Successfully */
